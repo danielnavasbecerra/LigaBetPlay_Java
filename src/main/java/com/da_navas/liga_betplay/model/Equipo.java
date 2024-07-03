@@ -6,8 +6,8 @@ public class Equipo {
     private int id;
     private String nombre;
     private String ciudad;
-    private String estadio;
-    private String entrenador;
-    private List<Jugador> jugadores;
-    private List<Partido> partidos;
+    private Estadio estadio;
+    private Entrenador entrenador;
+    private List<Jugador> listJugadores;
+    private List<Partido> listPartidos;
 }
